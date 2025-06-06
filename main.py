@@ -1,13 +1,13 @@
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 import logging
 from aiogram import Bot, Dispatcher, executor, types
 import openai
 
 # Load environment variables
-load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+#load_dotenv()
+#OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+#TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
